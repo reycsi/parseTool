@@ -1,5 +1,5 @@
-from parslib import parseText
+from parseTool import parse
 while 1:
 	site = input("Введите адрес сайта: ")
 	selector = input("Введите css селектор: ")
-	print(parseText(site, selector))
+	print(parse(site, selector))
